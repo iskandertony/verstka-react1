@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px 0px 0px;
+  margin: 0px 312px 0px 312px;
+  z-index: 2;
+}
+
+.nav-sub {
+  display: flex;
+  flex-direction: row;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.nav-sub-text {
+  padding: 0px 20px 0px 20px;
+}
+

@@ -1,0 +1,60 @@
+.PageOne-text {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.PageOne-sub {
+  font-family: "Familjen_Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 125%;
+  text-align: center;
+  color: #db3138;
+  margin-top: 168px;
+}
+
+.PageOne-img {
+  margin: 40px 0px;
+}
+
+.PageOne-sub1 {
+  width: 437px;
+  height: 96px;
+  font-family: "Familjen_Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.PageOne-sub2 {
+  padding: 20px;
+  background-color: #db3138;
+  font-family: "Familjen_Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid black;
+  border-radius: 6px;
+  margin-bottom: 100px;
+}
+
+@font-face {
+  font-family: "Familjen_Grotesk";
+  src: url("/src/Fonts/Familjen_Grotesk/FamiljenGrotesk-Italic-VariableFont_wght.ttf")
+      format("woff2"),
+    url("/src/Fonts/Familjen_Grotesk/FamiljenGrotesk-Italic-VariableFont_wght.ttf")
+      format("woff");
+}
